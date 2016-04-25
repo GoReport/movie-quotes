@@ -1,0 +1,25 @@
+<h2>Create Film</h2>
+<br/>
+<form action="/quote" method="post" role="form">
+ <div class="form-group">
+   <label for="quote_film">Film:</label>
+   <br>
+   <input id="quote_film" class="form-control" name="quote[film]" type="text" value="<%= @quote.film %>" style="width=90%"/>
+ </div>
+ <div class="form-group">
+   <label for="quote_content">Content:</label>
+   <br>
+   <textarea id="quote_content" name="quote[content]" class="form-control" rows="10"><%= @quote.content %></textarea>
+ </div>
+ <div class="form-group">
+   <label for="quote_actor">Actor:</label>
+   <br>
+   <input id="quote_actor" class="form-control" name="quote[actor]" type="text" value="<%= @quote.actor %>" style="width=90%"/>
+ </div>
+  <div class="form-group">
+   <label for="quote_year">Year:</label>
+   <br>
+   <input id="quote_year" class="form-control" name="quote[year]" type="text" value="<%= @quote.year %>" style="width=90%"/>
+ </div>
+ <button type="submit" class="btn btn-success">Submit</button>
+</form>

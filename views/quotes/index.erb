@@ -1,0 +1,8 @@
+<ul>
+<% @quotes.each do |quote| %>
+ <li>
+   <h4><a href="/quote/<%= quote.id %>"><%=h quote.film %></a></h4>
+   <p>Created: <%=h quote.created_at %></p>
+ </li>
+<% end %>
+</ul>

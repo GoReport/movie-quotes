@@ -1,0 +1,11 @@
+<h1><%=h @quote.film %></h1>
+<p><%=h @quote.content %></p>
+<p><%=h @quote.actor %></p>
+<p><%=h @quote.year %></p>
+<br />
+<a href="/quote/<%= @quote.id %>/edit">Edit Quote</a>
+
+<form action="/quote/<%= @quote.id %>" method="post">
+<input type="hidden" name="_method" value="delete" />
+<input type="submit" value="Delete">
+</form>
