@@ -38,7 +38,7 @@ The solution should take into consideration
 
 ## Web Developers Task
 
-Using the API detailed above, create a web application with the functionality listed below. The web application must be created using JavaScript, the use of Angular is encouraged but plain jQuery or another framework such as React, Ember or Knockout is allowed.
+Using the API detailed above, create a web application with the functionality listed below. The web application must be created using Angular, at least version 5.
 
 * The ability to show a list of movie quotes
 * The ability to show a single movie quote
